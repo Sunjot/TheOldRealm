@@ -1,0 +1,97 @@
+#header {
+  padding: 0;
+  display: absolute;
+  margin: 0 auto;
+  max-width: 100vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #006699;
+  color: white;
+  font-family: 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+  font-size: 2vw;
+  font-weight: lighter;
+  letter-spacing: 0.07vw;
+}
+
+.large {
+  font-size: 6vw;
+}
+
+.med {
+  font-size: 2vw;
+}
+
+.fade {
+  opacity: 0;
+}
+
+#intro {
+  height: 20vw;
+}
+
+#div1 {
+  height: 47vw;
+}
+
+#kingdom {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-bottom: 1vw;
+}
+
+#sec1 {
+  display: inline-block;
+  width: 45vw;
+  margin-top: 2vw;
+}
+
+#sec2 {
+  float: right;
+  display: inline-block;
+  margin-right: 12vw;
+}
+
+#sec2 #kingdom {
+  width: 15vw;
+}
+
+#throne {
+  width: 20vw;
+}
+
+#div2 #sec2 {
+  margin-top: 7vw;
+}
+
+.flag {
+  margin-right: 1vw;
+  display: inline-block;
+}
+
+.flag img {
+  height:15vw;
+}
+
+#row1box div, #row2box div{
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border: 2px solid white;
+  display: none;
+}
+
+.darker {
+  background-color: #005580;
+}
+
+#houses {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-bottom: 2vw;
+}
