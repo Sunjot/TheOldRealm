@@ -10,42 +10,48 @@ body {
   padding: 0;
   background-color: #006699;
   color: white;
-  font-family: 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Lucida Grande', sans-serif;
   font-size: 2vw;
   font-weight: lighter;
   letter-spacing: 0.07vw;
 }
 
+/* Set background color of every other section to a darker shade */
+.darker {
+  background-color: #005580;
+}
+
+/* TITLE/PARAGRAPH SIZE AND PADDING */
 .large {
+  padding-top: 2vw;
   font-size: 6vw;
+  margin-top: 0vw;
 }
 
 .med {
   font-size: 2vw;
+  padding-bottom: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
+/* Set all text to 0 opacity to begin */
 .fade {
   opacity: 0;
-}
-
-#intro {
-  height: 20vw;
-}
-
-#div1 {
-  height: 47vw;
 }
 
 #kingdom {
   margin-left: 1vw;
   margin-right: 1vw;
-  padding-bottom: 1vw;
 }
 
 #sec1 {
   display: inline-block;
   width: 45vw;
-  margin-top: 2vw;
+}
+
+#div1 #sec1 {
+  margin-top: 3vw;
 }
 
 #sec2 {
@@ -55,15 +61,22 @@ body {
 }
 
 #sec2 #kingdom {
-  width: 15vw;
+  display: inline-block;
+  width: 13vw;
+  margin: 0;
+  padding: 0;
 }
 
 #throne {
   width: 20vw;
 }
 
+#div1 {
+  height: 45vw;
+}
+
 #div2 #sec2 {
-  margin-top: 7vw;
+  margin-top: 2vw;
 }
 
 .flag {
@@ -84,10 +97,6 @@ body {
   margin-right: 1vw;
   border: 2px solid white;
   display: none;
-}
-
-.darker {
-  background-color: #005580;
 }
 
 #houses {
