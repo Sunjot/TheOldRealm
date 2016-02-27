@@ -1,7 +1,29 @@
 $(document).ready(function() {
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-        $('.fade').css('opacity', '100');
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+      $('.fade').css('opacity', '100');
+
+      $('#row1 .flag').click(function() {
+
+        var orig_id = $(this).attr('id');
+
+        $('#row1 .flag').each(function() {
+          if (orig_id != $(this).attr('id')) {
+            var temp = '#row1box ' + '#' + $(this).attr('id');
+            $(temp).css('display', 'none');
+          }
+        });
+
+        var temp = '#row1box ' + '#' + orig_id;
+
+        if ($(temp).css('display') === 'block') {
+          $(temp).css('display', 'none');
+        } else {
+          $(temp).css('display', 'block');
+        }
+        
+      });
+
     } else {
 
       // If mouse hovers over a shield in row 1, display info
