@@ -49,7 +49,7 @@ p {
 }
 
 .small {
-  font-size: 1.5vw;
+  font-size: 1.15vw;
 }
 
 /* Set all text to 0 opacity to begin */
@@ -86,7 +86,7 @@ p {
 /* LOCATION PART 2 */
 
 #location2 {
-  height: 52vw;
+  height: 40vw;
 }
 
 #location2 #sevenkingdoms {
@@ -107,17 +107,15 @@ p {
 /* SOCIETY STRUCTURE */
 
 #society {
-  height: 115vw;
+  height: 100vw;
 }
 
 #society #left {
-  border: 5px solid red;
   width: 45vw;
   float: left;
 }
 
 #society #right {
-  border: 5px solid red;
   width: 45vw;
   float: right;
 }
@@ -129,31 +127,31 @@ p {
 
 #society #hand {
   padding-right: 2vw;
-  margin-top: 18vw;
+  margin-top: 16vw;
   visibility: hidden;
 }
 
 #society #council {
   padding-left: 2vw;
-  margin-top: 15vw;
+  margin-top: 13vw;
   visibility: hidden;
 }
 
 #society #greathouses {
   padding-right: 2vw;
-  margin-top: 18vw;
+  margin-top: 16vw;
   visibility: hidden;
 }
 
 #society #vassal {
   padding-left: 2vw;
-  margin-top: 18vw;
+  margin-top: 16vw;
   visibility: hidden;
 }
 
 #society #commoners {
   padding-right: 2vw;
-  margin-top: 20vw;
+  margin-top: 18vw;
   visibility: hidden;
 }
 
