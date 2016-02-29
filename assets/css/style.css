@@ -49,14 +49,14 @@ p {
 }
 
 .small {
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
-@media only screen and (min-device-width: 500px) {
+/* @media only screen and (min-device-width: 500px) {
     .small {
         font-size: 1.5vw;
     }
-}
+} */
 
 /* Set all text to 0 opacity to begin */
 .fade {
@@ -112,53 +112,55 @@ p {
 
 /* SOCIETY STRUCTURE */
 
-#society {
-  height: 115vw;
+
+#society .row {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  width: 100%;
 }
 
-#society #left {
-  width: 45vw;
-  float: left;
-}
 
-#society #right {
-  width: 45vw;
-  float: right;
-}
 
 #society #king {
+  display: inline-block;
   padding-left: 2vw;
-  visibility: hidden;
+  width: 45vw;
+  margin-right: 50%;
 }
 
 #society #hand {
+  display: inline-block;
   padding-right: 2vw;
-  margin-top: 16vw;
-  visibility: hidden;
+  width: 45vw;
+  margin-left: 50%;
 }
 
 #society #council {
+  display: inline-block;
   padding-left: 2vw;
-  margin-top: 13vw;
-  visibility: hidden;
+  width: 45vw;
+  margin-right: 50%;
 }
 
 #society #greathouses {
+  display: inline-block;
   padding-right: 2vw;
-  margin-top: 16vw;
-  visibility: hidden;
+  width: 45vw;
+  margin-left: 50%;
 }
 
 #society #vassal {
+  display: inline-block;
   padding-left: 2vw;
-  margin-top: 16vw;
-  visibility: hidden;
+  width: 45vw;
+  margin-right: 50%;
 }
 
 #society #commoners {
+  display: inline-block;
   padding-right: 2vw;
-  margin-top: 18vw;
-  visibility: hidden;
+  width: 45vw;
+  margin-left: 50%;
 }
 
 /* THE HOUSES */
