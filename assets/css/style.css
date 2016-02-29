@@ -111,11 +111,13 @@ p {
 }
 
 #society #left {
+  border: 5px solid red;
   width: 45vw;
   float: left;
 }
 
 #society #right {
+  border: 5px solid red;
   width: 45vw;
   float: right;
 }

@@ -6,9 +6,9 @@ $(document).ready(function() {
       $('.fade').css('opacity', '100'); // No fade in animation
 
       $('.slide').each(function(i){
-
         var temp = '#society #' + $(this).attr('id');
         $(temp).css('visibility', 'visible');
+
       });
 
       // If user touches shield in row 1, display info
