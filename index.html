@@ -13,7 +13,7 @@
     <center>
 
       <!-- Introduction section -->
-      <div class="fade">
+      <div id="intro" class="fade">
         <p class="large">
           Welcome.
         </p>
@@ -28,8 +28,8 @@
       </div>
 
       <!-- What is Game of Thrones? -->
-      <div class="darker fade">
-        <p class="large">
+      <div id="whatisit" class="darker fade">
+        <p id="title" class="large">
           If you didn't know already...
         </p>
         <p class="med">
@@ -166,7 +166,7 @@
             <p class="small">
               As mentioned above, each of the nine regions in the Seven Kingdoms have a Great House
               that have authority over their respective region. The head of each house can be
-              considered the "King" over that region. The heads of the families hold the next
+              considered the "King" over that region and they hold the next
               strongest position in the Seven Kingdoms and make decisions on local matters.
             </p>
           </div>
@@ -211,78 +211,76 @@
         <div id="row1">
           <div class="flag" id="baratheon"><img src="http://i.imgur.com/iEXE5ye.png"></img></div>
           <div class="flag" id="arryn"><img src="http://i.imgur.com/nncZ4Lk.png"></img></div>
+          <div class="flag" id="martell"><img src="http://i.imgur.com/KRvXgkq.png"></img></div>
+          <div class="flag" id="stark"><img src="http://i.imgur.com/0bHy7GE.png"></img></div>
           <div class="flag" id="bolton"><img src="http://i.imgur.com/K32AC3J.png"></img></div>
-          <div class="flag" id="frey"><img src="http://i.imgur.com/na5aKmX.png"></img></div>
           <div class="flag" id="greyjoy"><img src="http://i.imgur.com/6cIob7p.png"></a></div>
-          <div class="flag" id="lannister"><img src="http://i.imgur.com/INSAkMq.png"></img></div>
         </div>
         <div id="row1box">
           <br>
           <div id="baratheon">House Baratheon
             <br><br>They are the Great House of The Stormlands, and the head of the house is
-            Robert Baratheon - the King. Thus, House Baratheon is the Royal House, and therefore
-            also the Great House of The Crownlands by default. The Royal House holds three
+            Robert Baratheon - the King. As the Royal House, they become the Great House of The
+            Crownlands by default. The Royal House also holds three
             seats (castles): Storm's end in The Stormlands, Red Keep in King's Landing, and Dragonstone
             in Blackwater Bay.
           </div>
           <div id="arryn">House Arryn
             <br><br>They are the Great House of The Vale, and the head of the house is Jon Arryn,
-            who is also the Hand of the King. In that role, he
-            advises the King in decisions made and holds the 2nd most powerful position.
-            Their seat is The Eyrie in The Vale.
+            who is also the Hand of the King. As mentioned earlier, that means he
+            holds the 2nd most powerful position in the Seven Kingdoms. Their seat (castle)
+            is The Eyrie in The Vale.
+          </div>
+          <div id="martell">House Martell
+            <br><br>They are the Great House of Dorne, and their leader is Doran Martell. Their seat
+            is Sunspear in Dorne.
+          </div>
+          <div id="stark">House Stark
+            <br><br>They are the Great House of The North, and their leader is Eddard Stark. They are
+            one of the oldest houses in the Seven Kingdoms. Their seat is Winterfell
+            in The North.
           </div>
           <div id="bolton">House Bolton
-            <br><br>They are one of the houses in The North, and the head of the house is Roose Bolton.
-            They are known for flaying
-            their enemies (removing layers of their skin) and letting them rot to their death. See: their sigil.
+            <br><br>They are one of the vassals of House Stark, and the head of the house is Roose Bolton.
+            They are known for flaying their enemies (removing layers of their skin). See: their sigil.
             Their seat is The Dreadfort in The North.
-          </div>
-          <div id="frey">House Frey
-            <br><br>They are one of the houses in The Riverlands, and the head of the house is Walder Frey.
-            Their seat is The Twins in The Riverlands.
           </div>
           <div id="greyjoy">House Greyjoy
             <br><br>They are the Great House of The Iron Islands, and the head of the house is Balon Greyjoy.
             Their seat is Pyke in Pyke Island (one of The Iron Islands).
           </div>
+        </div>
+        <br>
+        <div id="row2">
+          <div class="flag" id="lannister"><img src="http://i.imgur.com/INSAkMq.png"></img></div>
+          <div class="flag" id="tyrell"><img src="http://i.imgur.com/0uhSMqP.png"></img></div>
+          <div class="flag" id="tully"><img src="http://i.imgur.com/zQxKqQ0.png"></img></div>
+          <div class="flag" id="frey"><img src="http://i.imgur.com/na5aKmX.png"></img></div>
+          <div class="flag" id="targaryen"><img src="http://i.imgur.com/XwOIW5U.png"></img></div>
+        </div>
+        <div id="row2box">
+          <br>
           <div id="lannister">House Lannister
             <br><br>They are the Great House of The Westerlands, and the head of the house is Tywin Lannister.
             They are one of the oldest and richest houses in the Seven Kingdoms. Their seat is Casterly Rock
             in The Westerlands.
-
-          </div>
-        </div>
-        <br>
-        <div id="row2">
-          <div class="flag" id="martell"><img src="http://i.imgur.com/KRvXgkq.png"></img></div>
-          <div class="flag" id="tyrell"><img src="http://i.imgur.com/0uhSMqP.png"></img></div>
-          <div class="flag" id="stark"><img src="http://i.imgur.com/0bHy7GE.png"></img></div>
-          <div class="flag" id="targaryen"><img src="http://i.imgur.com/XwOIW5U.png"></img></div>
-          <div class="flag" id="tully"><img src="http://i.imgur.com/zQxKqQ0.png"></img></div>
-        </div>
-        <div id="row2box">
-          <br>
-          <div id="martell">House Martell
-            <br><br>They are the Great House of Dorne, and their leader is Doran Martell. Sunspear is a
-            castle in Dorne and the seat of House Martell.
           </div>
           <div id="tyrell">House Tyrell
-            <br><br>They are the Great House of The Reach, and their leader is Mace Tyrell. Highgarden is a
-            castle in The Reach and the seat of House Tyrell.
-          </div>
-          <div id="stark">House Stark
-            <br><br>They are the Great House of The North, and their leader is Eddard Stark. They are
-            one of the oldest houses in the Seven Kingdoms. Winterfell is
-            a castle in The North and the seat of House Stark.
-          </div>
-          <div id="targaryen">House Targaryen
-            <br><br>They were the former Royal House of the Seven Kingdoms and thus
-            the Great House of The Crownlands for nearly 300 years before the events of the show.
-            Their leader is Daenerys Targaryen.
+            <br><br>They are the Great House of The Reach, and their leader is Mace Tyrell. Their seat is
+            Highgarden in The Reach.
           </div>
           <div id="tully">House Tully
             <br><br>They are the Great House of The Riverlands, and their leader is Edmure Tully.
-            Riverrun is a castle in The Riverlands and the seat of House Tully.
+            Their seat is Riverrun in The Riverlands.
+          </div>
+          <div id="frey">House Frey
+            <br><br>They are one of the vassals of House Tully, and the head of the house is Walder Frey.
+            Their seat is The Twins in The Riverlands.
+          </div>
+          <div id="targaryen">House Targaryen
+            <br><br>They were the former Royal House of the Seven Kingdoms (and thus
+            the Great House of The Crownlands) for nearly 300 years before the events of the show.
+            Their leader is Daenerys Targaryen.
           </div>
         </div>
       </div></div>

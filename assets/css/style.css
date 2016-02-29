@@ -63,28 +63,44 @@ p {
   opacity: 0;
 }
 
+/* INTRODUCTION / WHAT IS IT SECTION */
+
+#intro {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+#whatisit {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+#whatisit #title {
+  padding-bottom: 3vw;
+}
+
 /* LOCATION PART 1 */
 
 #location1 {
-  height: 47vw;
+  padding-top: 2vw;
+  padding-bottom: 4vw;
 }
 
 #location1 #description {
   display: inline-block;
   width: 45vw;
-  margin-top: 3vw;
 }
 
 #location1 #fullmap {
   float: right;
   display: inline-block;
-  margin-top: 7vw;
+  margin-top: 4vw;
   margin-right: 4vw;
 }
 
 #fullmapimg {
   display: inline-block;
-  width: 45vw;
+  width: 37vw;
   margin: 0;
   padding: 0;
 }
@@ -92,26 +108,34 @@ p {
 /* LOCATION PART 2 */
 
 #location2 {
-  height: 47vw;
+  padding-top: 2vw;
+  padding-bottom: 5vw;
+}
+
+#location2 #tophalf {
+  padding-bottom: 2vw;
 }
 
 #location2 #sevenkingdoms {
   width: 40vw;
-  float:left;
   display: inline-block;
-  margin-left: 5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 #location2 #beyondthewall {
   width: 40vw;
   display: inline-block;
-  float:right;
-  margin-right: 5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 
 }
 
 /* SOCIETY STRUCTURE */
 
+#society {
+  padding-bottom: 4vw;
+}
 
 #society .slide {
   padding-top: 1vw;
