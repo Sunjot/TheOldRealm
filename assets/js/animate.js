@@ -5,6 +5,12 @@ $(document).ready(function() {
 
       $('.fade').css('opacity', '100'); // No fade in animation
 
+      $('.slide').each(function(i){
+
+        var temp = '#society #' + $(this).attr('id');
+        $(temp).css('visibility', 'visible');
+      });
+
       // If user touches shield in row 1, display info
       $('#row1 .flag').click(function() {
 
@@ -71,6 +77,28 @@ $(document).ready(function() {
 
       // Every time the window is scrolled
       $(window).scroll( function(){
+
+          $('.slide').each(function(i){
+
+            var h = window.innerHeight / 2;
+
+            var temp = '#society #' + $(this).attr('id');
+            // Fade text in or out once scrolling at certain position
+            if (($(temp).offset().top - $(window).scrollTop()) < h &&
+            $(temp).css('visibility') === 'hidden') {
+              $(temp).css('display', 'none');
+              $(temp).css('visibility', 'visible');
+
+              var attrs = $(this).attr('class').split(" ");
+
+              if (attrs[1] === 'left') {
+                $(temp).toggle("slide", { direction: "left" }, 800);
+              } else {
+                $(temp).toggle("slide", { direction: "right" }, 800);
+              }
+            }
+
+          });
 
           // Check the location of each desired element
           $('.fade').each( function(i){

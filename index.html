@@ -2,6 +2,7 @@
 <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
 <script src="assets/js/animate.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:200">
 
 <body>
@@ -10,77 +11,187 @@
 
   <div>
     <center>
+
+      <!-- Introduction section -->
       <div class="fade">
-        <p class="large">Welcome.</p>
-        <p class="med">If you're new to Game of Thrones or a couple episodes in and lost, read on.
-        This show is considered one of the more difficult shows to follow when you're starting out
-        due to the large family trees and the long history.
-        <br><br>So, I have created this site to prepare those who wish to begin the series or are
-        having trouble following along. I'll be covering all the important pieces of information that
-        you'll need to know before diving into season 1. Don't worry, it's spoiler-free.</p>
+        <p class="large">
+          Welcome.
+        </p>
+        <p class="med">
+          If you're new to Game of Thrones or a couple episodes in and lost, read on.
+          This show is considered one of the more difficult shows to follow when you're starting out
+          due to the large family trees and the long history.<br><br>
+          So, I have created this site to prepare those who wish to begin the series or are
+          having trouble following along. I'll be covering all the important pieces of information that
+          you'll need to know before diving into season 1. Don't worry, it's spoiler-free.
+        </p>
       </div>
 
-      <div class="darker"><div id="intro" class="fade">
-        <p class="large">If you didn't know already...</p>
-        <p class="med">Game of Thrones is an adaptation of the series of fantasy novels known as A Song
+      <!-- What is Game of Thrones? -->
+      <div class="darker fade">
+        <p class="large">
+          If you didn't know already...
+        </p>
+        <p class="med">
+          Game of Thrones is an adaptation of the series of fantasy novels known as A Song
           of Ice and Fire, written by George R. R. Martin. Easy - let's move on.
         </p>
-      </div></div>
+      </div>
 
-      <div id="div1" class="fade">
-        <div id="sec1">
-          <p class="large">Where at?</p>
-          <p class="med">Majority of the show takes place on a continent known as Westeros. On this magical land is a
-          realm known as the Seven Kingdoms, which despite its name, is actually nine regions. Some stuff went
-          down resulting in the nine there are now, but we don't need to delve into that.
+      <!-- The location - part 1 -->
+      <div id="location1" class="fade">
+        <div id="description">
+          <p class="large">
+            Where at?
+          </p>
+          <p class="med">
+            The world of Game of Thrones consists of 4 continents. However, majority
+            of the show takes place on the one known as Westeros (left region on the map).
+            On this magical land is a realm known as the Seven Kingdoms, which covers most of Westeros.
+            The remaining area is the northernmost part of the continent, referred to as Beyond The Wall (white
+            area you see on the map, if you couldn't tell already).
           </p>
         </div>
-        <div id="sec2">
+        <div id="fullmap">
           <br><br>
-          <a href="http://awoiaf.westeros.org/index.php/File:Seven_Kingdoms.png"><img id="kingdom" src="http://i.imgur.com/kBFpBpa.jpg"></img></a>
+          <img id="fullmapimg" src="http://i.imgur.com/6FYvVrJ.jpg"></img>
         </div>
       </div>
 
-      <br>
-      <div class="darker"><div id="kingdom" class="fade">
-        <p class="large">The Seven Kingdoms</p>
-        <p class="med">For each region, there are many houses (interpret them as families),
-          but only one of those houses hold power over their respective
-          region - they are called the Great Houses. So, with nine regions come nine Great Houses.
-          The nine regions in The Seven Kindgoms are below:
-          <br><br>The North
-          <br>The Iron Islands
-          <br>The Riverlands
-          <br>The Vale of Arryn
-          <br>The Westerlands
-          <br>The Crownlands
-          <br>The Reach
-          <br>The Stormlands
-          <br>Dorne
-          <br><br> We'll get to the Great Houses for those regions in a bit.
-        </p>
-      </div></div>
-
-      <div id="div2" class="fade">
-        <div id="sec1">
-          <p class="large">The Iron Throne</p>
-          <p class="med">The ruler of the Seven Kingdoms sits on the Iron Throne and holds power over everyone.
-            The Iron Throne is located in King's Landing, the capital of the Seven Kingdoms.
-            The house of whomever is the King (called the Royal House)
-            therefore has large influence over everything imaginable. You can now understand why the battle
-            for the Iron Throne is so important - all houses want that power and influence.
+      <!-- The location - part 2 -->
+      <div id="location2" class="darker fade">
+        <!-- TOP SECTION -->
+        <div id="tophalf">
+          <p class="large">
+            Westeros
+          </p>
+          <p class="med">
+            As mentioned above, Westeros is made up of 2 regions: the Seven Kingdoms
+            and Beyond The Wall. We'll have a brief look at each.
           </p>
         </div>
-        <div id="sec2">
-          <br><br>
-          <a href="http://i.imgur.com/GdNOIou.jpg"><img id="throne" src="http://i.imgur.com/GdNOIou.jpg"></img></a>
+        <!-- BOTTOM SECTION -->
+        <div id="bottomhalf">
+          <!-- LEFT SIDE -->
+          <div id="sevenkingdoms">
+            <p class="largesub">
+              Seven Kingdoms
+            </p>
+            <p class="small">
+              The Seven Kingdoms, despite its name, is actually made up of nine regions: The North,
+              The Iron Islands, The Riverlands, The Vale, The Westerlands, The Crownlands, The Reach,
+              The Stormlands, and Dorne. Each of these regions contain many houses (families), but
+              only one of the houses in each region hold authority over their respective area -
+              they are known as the Great Houses. So, with nine regions come nine Great Houses.
+              We'll go over those in a bit.
+            </p>
+          </div>
+          <!-- RIGHT SIDE -->
+          <div id="beyondthewall">
+            <p class="largesub">
+              Beyond The Wall
+            </p>
+            <p class="small">
+              An extremely large wall separates The Seven Kingdoms from the area to the north
+              and is defended by a military order known as the Night's Watch. The people living
+              north of the wall are called the Free Folk, and are referred to as
+              wildlings. These guys aren't fans
+              of the people in the south or their feudal system and choose to follow only
+              those they want to. Those in the Seven Kingdoms share a similar opinion about
+              their "free" culture beyond the wall.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="society" class="fade">
+        <div id="tophalf">
+          <p class="large">
+            Who is in charge?
+          </p>
+          <p class="med">
+            The Seven Kingdoms social structure begins with the King and
+            and moves down all the way to the commoners.
+          </p>
+        </div>
+        <div id="left">
+          <div id="king" class="slide left">
+            <p class="largesub">
+              The King
+            </p>
+            <p class="small">
+              The ruler of the Seven Kingdoms sits on the Iron Throne and holds
+              political authority and final say in all decisions. The Iron Throne
+              is located in King's Landing, the capital of the Seven Kingdoms.
+              The house of whomever is the King is called the Royal House. The
+              battle for the Iron Throne is central to the show as everyone wants
+              that power and influence over the Seven Kingdoms.
+            </p>
+          </div>
+          <div id="council" class="slide left">
+            <p class="largesub">
+              Small Council
+            </p>
+            <p class="small">
+              The Small Council is a group appointed by and advisor to the King and the King's Hand.
+              When decisions need to be made regarding the economy or law, the King and Hand
+              usually get together with the Small Council to consider their options. However,
+              final say is still up to the King - they are only there to provide pros/cons, etc.
+            </p>
+          </div>
+          <div id="vassal" class="slide left">
+            <p class="largesub">
+              Vassals
+            </p>
+            <p class="small">
+              Each of the Great Houses have multiple vassals, which are just smaller houses that
+              have pledged an allegiance to that Great House. These vassals in turn could have
+              their own vassals, and so on. The rulers of the lower-level vassals (known as landed
+              knights) report to the head of the vassal above them, and the heads of the top
+              layer of vassals report to the head of the Great House they hold fealty to. You get the idea.
+            </p>
+          </div>
+        </div>
+
+        <div id="right">
+          <div id="hand" class="slide right">
+            <p class="largesub">
+              Hand of the King
+            </p>
+            <p class="small">
+              The Hand is appointed by and the advisor to the King and holds the second strongest
+              position in the Seven Kingdoms. If the King is absent, The Hand can make decisions
+              on his/her behalf and even sit on the Iron Throne.
+            </p>
+          </div>
+          <div id="greathouses" class="slide right">
+            <p class="largesub">
+              Great Houses
+            </p>
+            <p class="small">
+              As mentioned above, each of the nine regions in the Seven Kingdoms have a Great House
+              that have authority over their respective region. The head of each house can be
+              considered the "King" over that region. The heads of the families hold the next
+              strongest position in the Seven Kingdoms and make decisions on local matters.
+            </p>
+          </div>
+          <div id="commoners" class="slide right">
+            <p class="largesub">
+              Commoners
+            </p>
+            <p class="small">
+              The commoners, also known as the smallfolk, are at the bottom of the social structure
+              and own no land or titles. They obey their local lord and have no say in any decisions
+              whatsoever.
+            </p>
+          </div>
         </div>
       </div>
 
       <div class="darker"><div id="houses" class="fade">
         <p class="large">The Houses</p>
         <p class="med">While there are hundreds of houses in the Seven Kingdoms, there are a select few that are
-          the focus of the show, and we will be looking at those only. You can hover over each shield/sigil
+          the focus of the show, and we will be looking at those only. You can hover over (or click) each shield/sigil
           to get a brief overview of the houses.
         </p>
         <br>
@@ -95,33 +206,36 @@
         <div id="row1box">
           <br>
           <div id="baratheon">House Baratheon
-            <br><br>They are the Great House of The Stormlands, and their leader is Robert Baratheon - the King.
-            Thus, House Baratheon is the Royal House and possesses the most power. As the Royal House,
-            they are also the Great House of The Crownlands by default. Storm's End is a castle in
-            The Stormlands and the seat of House Baratheon.
+            <br><br>They are the Great House of The Stormlands, and the head of the house is
+            Robert Baratheon - the King. Thus, House Baratheon is the Royal House, and therefore
+            also the Great House of The Crownlands by default. The Royal House holds three
+            seats (castles): Storm's end in The Stormlands, Red Keep in King's Landing, and Dragonstone
+            in Blackwater Bay.
           </div>
           <div id="arryn">House Arryn
-            <br><br>They are the Great House of The Vale of Arryn, and their leader is Jon Arryn. He is also the Hand of the King. Meaning, he
-            advises the King in decisions made and holds the 2nd most powerful position in the Seven Kingdoms.
-            The Eyrie is a castle in The Vale of Arryn and the seat of House Arryn.
+            <br><br>They are the Great House of The Vale, and the head of the house is Jon Arryn,
+            who is also the Hand of the King. In that role, he
+            advises the King in decisions made and holds the 2nd most powerful position.
+            Their seat is The Eyrie in The Vale.
           </div>
           <div id="bolton">House Bolton
-            <br><br>They are one of the houses in The North, and their leader is Roose Bolton. They are known for flaying
+            <br><br>They are one of the houses in The North, and the head of the house is Roose Bolton.
+            They are known for flaying
             their enemies (removing layers of their skin) and letting them rot to their death. See: their sigil.
-            The Dreadfort is a castle in The North and the seat of House Bolton.
+            Their seat is The Dreadfort in The North.
           </div>
           <div id="frey">House Frey
-            <br><br>They are one of the houses in The Riverlands, and their leader is Walder Frey. The Twins is a
-            castle in The Riverlands and the seat of House Frey.
+            <br><br>They are one of the houses in The Riverlands, and the head of the house is Walder Frey.
+            Their seat is The Twins in The Riverlands.
           </div>
           <div id="greyjoy">House Greyjoy
-            <br><br>They are the Great House of The Iron Islands, and their leader is Balon Greyjoy. Pyke is a
-            castle located on Pyke Island, one of The Iron Islands, and is the seat of House Greyjoy.
+            <br><br>They are the Great House of The Iron Islands, and the head of the house is Balon Greyjoy.
+            Their seat is Pyke in Pyke Island (one of The Iron Islands).
           </div>
           <div id="lannister">House Lannister
-            <br><br>They are the Great House of The Westerlands, and their leader is Tywin Lannister.
-            They are one of the oldest and richest houses in the Seven Kingdoms. Casterly Rock
-            is a castle in The Westerlands and the seat of House Lannister.
+            <br><br>They are the Great House of The Westerlands, and the head of the house is Tywin Lannister.
+            They are one of the oldest and richest houses in the Seven Kingdoms. Their seat is Casterly Rock
+            in The Westerlands.
 
           </div>
         </div>

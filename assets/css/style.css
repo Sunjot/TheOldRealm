@@ -1,3 +1,6 @@
+
+/* HEADER AND BODY */
+
 #header {
   padding: 0;
   display: absolute;
@@ -15,15 +18,26 @@ body {
   letter-spacing: 0.07vw;
 }
 
+p {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
 /* Set background color of every other section to a darker shade */
 .darker {
   background-color: #005580;
 }
 
 /* TITLE/PARAGRAPH SIZE AND PADDING */
+
 .large {
   padding-top: 2vw;
   font-size: 6vw;
+  margin-top: 0vw;
+}
+
+.largesub {
+  font-size: 3.5vw;
   margin-top: 0vw;
 }
 
@@ -34,49 +48,115 @@ body {
   margin-right: 1vw;
 }
 
+.small {
+  font-size: 1.5vw;
+}
+
 /* Set all text to 0 opacity to begin */
 .fade {
   opacity: 0;
 }
 
-#kingdom {
-  margin-left: 1vw;
-  margin-right: 1vw;
+/* LOCATION PART 1 */
+
+#location1 {
+  height: 47vw;
 }
 
-#sec1 {
+#location1 #description {
   display: inline-block;
   width: 45vw;
-}
-
-#div1 #sec1 {
   margin-top: 3vw;
 }
 
-#sec2 {
+#location1 #fullmap {
   float: right;
   display: inline-block;
-  margin-right: 12vw;
+  margin-top: 7vw;
+  margin-right: 4vw;
 }
 
-#sec2 #kingdom {
+#fullmapimg {
   display: inline-block;
-  width: 13vw;
+  width: 45vw;
   margin: 0;
   padding: 0;
 }
 
-#throne {
-  width: 20vw;
+/* LOCATION PART 2 */
+
+#location2 {
+  height: 52vw;
 }
 
-#div1 {
-  height: 45vw;
+#location2 #sevenkingdoms {
+  width: 40vw;
+  float:left;
+  display: inline-block;
+  margin-left: 5vw;
 }
 
-#div2 #sec2 {
-  margin-top: 2vw;
+#location2 #beyondthewall {
+  width: 40vw;
+  display: inline-block;
+  float:right;
+  margin-right: 5vw;
+
 }
+
+/* SOCIETY STRUCTURE */
+
+#society {
+  height: 115vw;
+}
+
+#society #left {
+  width: 45vw;
+  float: left;
+}
+
+#society #right {
+  width: 45vw;
+  height: 100vw;
+  float: right;
+}
+
+#society #king {
+  padding-left: 2vw;
+  visibility: hidden;
+}
+
+#society #hand {
+  padding-right: 2vw;
+  margin-top: 18vw;
+  visibility: hidden;
+}
+
+#society #council {
+  padding-left: 2vw;
+  margin-top: 15vw;
+  visibility: hidden;
+}
+
+#society #greathouses {
+  padding-right: 2vw;
+  margin-top: 18vw;
+  visibility: hidden;
+}
+
+#society #vassal {
+  padding-left: 2vw;
+  margin-top: 18vw;
+  visibility: hidden;
+}
+
+#society #commoners {
+  padding-right: 2vw;
+  margin-top: 20vw;
+  visibility: hidden;
+}
+
+/* THE HOUSES */
 
 .flag {
   margin-right: 1vw;
