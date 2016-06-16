@@ -108,9 +108,7 @@ $(document).ready(function() {
             // Fade text in or out once scrolling at certain position
             if (($(this).offset().top - $(window).scrollTop()) < h) {
               TweenMax.to(this, 2, {opacity:1});
-            } else {
-              TweenMax.to(this, 2, {opacity:0});
-            }
+            } 
 
           });
       });
