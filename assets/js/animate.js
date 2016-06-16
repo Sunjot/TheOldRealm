@@ -92,9 +92,9 @@ $(document).ready(function() {
               var attrs = $(this).attr('class').split(" ");
 
               if (attrs[1] === 'left') {
-                $(temp).toggle("slide", { direction: "left" }, 800);
+                TweenMax.to(temp, 5, {left: 800});
               } else {
-                $(temp).toggle("slide", { direction: "right" }, 800);
+                TweenMax.to(temp, 5, {right: 800});
               }
             }
 
@@ -107,9 +107,9 @@ $(document).ready(function() {
 
             // Fade text in or out once scrolling at certain position
             if (($(this).offset().top - $(window).scrollTop()) < h) {
-              TweenMax.to(this, 5, {opacity:1});
+              TweenMax.to(this, 2, {opacity:1});
             } else {
-              TweenMax.to(this, 5, {opacity:0});
+              TweenMax.to(this, 2, {opacity:0});
             }
 
           });
