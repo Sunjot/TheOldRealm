@@ -25,6 +25,7 @@ p {
 
 /* Set background color of every other section to a darker shade */
 .darker {
+  margin: 0;
   background-color: #005580;
 }
 
@@ -181,7 +182,47 @@ p {
 }
 
 #houses {
-  margin-left: 1vw;
-  margin-right: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
   padding-bottom: 2vw;
+}
+
+/* ROBERTS REBELLION */
+
+#rebellion #padding {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+/* FAMILY TREES */
+
+#familytree #row1 {
+  padding-top: 4vw;
+
+}
+
+#cersei {
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  width: 30vw;
+}
+
+#jamie {
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  width: 30vw;
+}
+
+#tyrion {
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  width: 30vw;
 }
