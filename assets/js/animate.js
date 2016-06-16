@@ -107,9 +107,9 @@ $(document).ready(function() {
 
             // Fade text in or out once scrolling at certain position
             if (($(this).offset().top - $(window).scrollTop()) < h) {
-              $(this).stop().fadeTo(100, 1);
+              TweenMax.to(this, 5, {opacity:1});
             } else {
-              $(this).stop().fadeTo(100, 0);
+              TweenMax.to(this, 5, {opacity:0});
             }
 
           });
