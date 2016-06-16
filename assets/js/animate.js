@@ -92,9 +92,9 @@ $(document).ready(function() {
               var attrs = $(this).attr('class').split(" ");
 
               if (attrs[1] === 'left') {
-                TweenMax.to(temp, 5, {right: 800});
+                $(temp).toggle("slide", { direction: "left" }, 800);
               } else {
-                TweenMax.to(temp, 5, {left: 800});
+                $(temp).toggle("slide", { direction: "right" }, 800);
               }
             }
 
