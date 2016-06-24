@@ -10,7 +10,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #006699;
+  background-color:#005580;
   color: white;
   font-family: 'Raleway', serif;
   font-size: 2vw;
@@ -25,7 +25,7 @@ p {
 /* Set background color of every other section to a darker shade */
 .darker {
   margin: 0;
-  background-color: #005580;
+  background-color: #006699;
 }
 
 /* TITLE/PARAGRAPH SIZE AND PADDING */
