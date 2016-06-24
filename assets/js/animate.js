@@ -11,11 +11,6 @@ $(document).ready(function() {
 
       });
 
-      $('.pop').on('click', function() {
-  			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
-  			$('#imagemodal').modal('show');
-  		});
-
       // If user touches shield in row 1, display info
       $('#row1 .flag').click(function() {
 
