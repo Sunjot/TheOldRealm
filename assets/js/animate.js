@@ -75,6 +75,11 @@ $(document).ready(function() {
         $(temp).css('display', 'none');
       });
 
+      $('#lannisters').click(function(){
+        var temp = '#lannisters';
+        $(temp).css('display', 'block');
+      });
+
       // Every time the window is scrolled
       $(window).scroll( function(){
 

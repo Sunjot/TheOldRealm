@@ -198,7 +198,11 @@ p {
 
 /* FAMILY TREES */
 
-#familytree #row1 {
+#lannisters {
+  display: none;
+}
+
+#lannisters #row1 {
   padding-top: 4vw;
 
 }
