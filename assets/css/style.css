@@ -77,7 +77,7 @@ p {
 #intro {
   padding-top: 2vw;
   padding-bottom: 2vw;
-  width: 85vw;
+  width: 90vw;
 }
 
 #whatisit {
@@ -86,7 +86,7 @@ p {
 }
 
 #whatisit #description {
-  width: 85vw;
+  width: 90vw;
 }
 
 /* LOCATION PART 1 */
@@ -98,7 +98,7 @@ p {
 
 #location1 #description {
   display: inline-block;
-  width: 85vw;
+  width: 90vw;
 }
 
 /* LOCATION PART 2 */
@@ -110,6 +110,7 @@ p {
 
 #location2 #tophalf {
   padding-bottom: 2vw;
+  width: 90vw;
 }
 
 #location2 #sevenkingdoms {
@@ -131,6 +132,10 @@ p {
 
 #society {
   padding-bottom: 4vw;
+}
+
+#society #tophalf {
+  width: 90vw;
 }
 
 #society .slide {
