@@ -203,6 +203,12 @@ p {
   padding-bottom: 3vw;
 }
 
+#lannisterheading {
+  cursor: pointer;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
 #lannisters {
   display: none;
 }
@@ -234,4 +240,16 @@ p {
   padding-left: 1vw;
   padding-right: 1vw;
   width: 30vw;
+}
+
+#starkheading {
+  cursor: pointer;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+#baratheonheading {
+  cursor: pointer;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
