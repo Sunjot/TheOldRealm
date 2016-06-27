@@ -198,6 +198,11 @@ p {
 
 /* FAMILY TREES */
 
+#familytree #info {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
 #lannisters {
   display: none;
 }
