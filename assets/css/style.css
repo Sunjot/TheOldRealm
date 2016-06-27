@@ -93,21 +93,7 @@ p {
 
 #location1 #description {
   display: inline-block;
-  width: 45vw;
-}
-
-#location1 #fullmap {
-  float: right;
-  display: inline-block;
-  margin-top: 4vw;
-  margin-right: 4vw;
-}
-
-#fullmapimg {
-  display: inline-block;
-  width: 37vw;
-  margin: 0;
-  padding: 0;
+  width: 60vw;
 }
 
 /* LOCATION PART 2 */
