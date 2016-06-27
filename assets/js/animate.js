@@ -77,7 +77,12 @@ $(document).ready(function() {
 
       $('#lannisterheading').click(function(){
         var temp = '#lannisters';
-        $(temp).css('display', 'block');
+
+        if ($(temp).css('display') === 'block') {
+          $(temp).css('display', 'none');
+        } else {
+          $(temp).css('display', 'block');
+        }
       });
 
       // Every time the window is scrolled
