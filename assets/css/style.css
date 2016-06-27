@@ -210,6 +210,11 @@ p {
 }
 
 #lannisters {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border: 2px solid white;
   display: none;
 }
 
