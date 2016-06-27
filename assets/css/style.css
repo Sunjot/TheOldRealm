@@ -205,8 +205,8 @@ p {
 
 #lannisterheading {
   cursor: pointer;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 
 #lannisters {
@@ -244,12 +244,12 @@ p {
 
 #starkheading {
   cursor: pointer;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 
 #baratheonheading {
   cursor: pointer;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
