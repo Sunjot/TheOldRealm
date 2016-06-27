@@ -75,7 +75,7 @@ $(document).ready(function() {
         $(temp).css('display', 'none');
       });
 
-      $('#lannisters').click(function(){
+      $('#lannisters').hover(function(){
         var temp = '#lannisters';
         $(temp).css('display', 'block');
       });
