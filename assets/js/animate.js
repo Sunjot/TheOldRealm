@@ -11,6 +11,11 @@ $(document).ready(function() {
 
       });
 
+      // Set max width of map image on click
+      lightbox.option({
+      'maxWidth': 500
+      })
+
       // If user touches shield in row 1, display info
       $('#row1 .flag').click(function() {
 
