@@ -85,8 +85,7 @@ p {
 }
 
 #whatisit #description {
-  margin-left: 50px;
-  margin-right: 50px;
+  width: 80vw;
 }
 
 /* LOCATION PART 1 */
@@ -98,7 +97,7 @@ p {
 
 #location1 #description {
   display: inline-block;
-  width: 60vw;
+  width: 80vw;
 }
 
 /* LOCATION PART 2 */
