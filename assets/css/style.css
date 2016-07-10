@@ -239,17 +239,26 @@ p {
   text-align: right;
 }
 
+#margaery, #loras {
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  width: 40vw;
+  padding-top: 4vw;
+}
+
 /* Remove scrollbar */
 ::-webkit-scrollbar {
     display: none;
 }
 
 .Fadeout {
-  -webkit-animation: OverlayFadeout 1s;
+  -webkit-animation: OverlayFadeout 0.5s;
 }
 
 .Fadein {
-  -webkit-animation: OverlayFadein 1s;
+  -webkit-animation: OverlayFadein 0.5s;
 }
 
 /* Vendor prefixes for fade out */

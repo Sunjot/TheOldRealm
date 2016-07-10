@@ -85,7 +85,7 @@ $(document).ready(function() {
         console.log(house);
         var element = '#overlay > #' + house;
         $(element).css('display', 'block');
-        $(element).addClass("Fadein").delay(1000).queue(function() {
+        $(element).addClass("Fadein").delay(500).queue(function() {
           $(element).removeClass("Fadein");
           $(element).dequeue();
         });
@@ -101,7 +101,7 @@ $(document).ready(function() {
         console.log(house);
         var element = '#overlay > #' + house;
         $(element).css('display', 'block');
-        $(element).addClass("Fadein").delay(1000).queue(function() {
+        $(element).addClass("Fadein").delay(500).queue(function() {
           $(element).removeClass("Fadein");
           $(element).dequeue();
         });
@@ -114,7 +114,7 @@ $(document).ready(function() {
         // Add and remove fadeout class to trigger animation
         $('#overlay > div').each(function() {
           if ($(this).css('display') === 'block'){
-            $(this).addClass("Fadeout").delay(1000).queue(function() {
+            $(this).addClass("Fadeout").delay(500).queue(function() {
               $(this).removeClass("Fadeout");
               $(this).css('display', 'none');
               $(this).dequeue();
