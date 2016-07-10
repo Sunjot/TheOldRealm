@@ -9,14 +9,14 @@
 <head>
   <link href="assets/css/lightbox.css" rel="stylesheet">
   <title>Welcome to The Realm</title>
+  <link rel="icon" href="http://i.imgur.com/gdliMc0.png">
 </head>
 
 <body>
+  <center>
 
-  <img id="header" src="assets/img/header3.jpg"></img>
-
-  <div>
-    <center>
+  <div id="main">
+    <img id="header" src="assets/img/header3.jpg"></img>
 
       <!-- Introduction section -->
       <div id="intro">
@@ -146,7 +146,7 @@
             <p class="small">
               The Hand is appointed by and the advisor to the King and holds the second strongest
               position in the Seven Kingdoms. If the King is absent, The Hand can make decisions
-              on his/her behalf and even sit on the Iron Throne.
+              on his/her behalf.
             </p>
           </div>
         </div>
@@ -159,8 +159,7 @@
             <p class="small">
               The Small Council is a group appointed by and advisor to the King and the King's Hand.
               When decisions need to be made regarding the economy or law, the King and Hand
-              usually get together with the Small Council to consider their options. However,
-              final say is still up to the King - they are only there to provide pros/cons, etc.
+              usually get together with the Small Council to consider their options.
             </p>
           </div>
         </div>
@@ -173,8 +172,7 @@
             <p class="small">
               As mentioned above, each of the nine regions in the Seven Kingdoms have a Great House
               that have authority over their respective region. The head of each house can be
-              considered the "King" over that region and they hold the next
-              strongest position in the Seven Kingdoms and make decisions on local matters.
+              considered the ruler over that region and they make decisions on local matters.
             </p>
           </div>
         </div>
@@ -185,11 +183,11 @@
               Vassals
             </p>
             <p class="small">
-              Each of the Great Houses have multiple vassals, which are just smaller houses that
+              Each of the Great Houses have vassals, which are just smaller houses that
               have pledged an allegiance to that Great House. These vassals in turn could have
-              their own vassals, and so on. The rulers of the lower-level vassals (known as landed
-              knights) report to the head of the vassal above them, and the heads of the top
-              layer of vassals report to the head of the Great House they hold fealty to. You get the idea.
+              their own vassals, and so on. The rulers of the lower-level vassals report to the head
+              of the vassal above them, and the heads of the top layer of vassals report to the
+              head of their Great House.
             </p>
           </div>
         </div>
@@ -210,9 +208,9 @@
 
       <div id="houses" class="darker fade">
         <p class="large">The Houses</p>
-        <p class="med">While there are hundreds of houses in the Seven Kingdoms, there are a select few that are
-          the focus of the show, and we will be looking at those only. You can hover over (or click) each shield/sigil
-          to get a brief overview of the houses. We'll go through the family trees next.
+        <p class="med">While there are hundreds of houses in the Seven Kingdoms, we will be looking at the select
+          few that are the focus of the show. Hovering over each shield/sigil gives you a brief overview of the house,
+          but if you want to get to know the family members, go ahead and click a shield.
         </p>
         <br>
         <div id="row1">
@@ -335,20 +333,16 @@
         </p>
       </div>
 
-      <div id="familytree" class="darker fade">
-        <p class="large">The Family Trees</p>
+      <div id="overlay">
+        <p id="close">Close</p>
 
-        <p class="small" id="info"> Click on each house name to expand/collapse and learn more about the families.</p>
-
-        <p id="lannisterheading" class="largesub">The Lannisters</p>
-
-        <div id="lannisters">
+        <div id="lannister">
           <div id="tywin">
             <p class="medium" style="padding-top:1vw;">Tywin Lannister</p>
             <p class="small" style="padding-top:1vw; width:50vw;">
-              The head of House Lannister and has 3 children with Joanna Lannister: Cersei, Jamie, and Tyrion Lannister. He was
-              responsible for the sacking of King's Landing when House Lannister betrayed House Targaryen
-              in support of Robert's Rebellion.
+              The head of House Lannister and has 3 children with Joanna Lannister: Cersei, Jamie, and Tyrion Lannister.
+              Initially the Hand of the King to Aerys Targaryen, he betrays the Targaryens and forms an alliance with
+              House Baratheon. We'll get into that famous event later.
             </p>
           </div>
 
@@ -356,37 +350,55 @@
             <div id="cersei">
               <p class="medium" style="padding-bottom:1vw;">Cersei Lannister</p>
               <p class="small">
-                Cerseri Lannister is the daughter of Tywin and Joanna Lannister and the twin sister of
-                Jamie Lannister. She is the Queen of the Seven Kingdoms after marrying Robert Baratheon.
+                Cerseri is the Queen of the Seven Kingdoms after marrying Robert Baratheon,
+                with whom she has 3 children: Joffrey, Tommen, and Myrcella Baratheon. She
+                is also the twin sister of Jamie.
               </p>
             </div>
             <div id="jamie">
               <p class="medium" style="padding-bottom:1vw;">Jamie Lannister</p>
               <p class="small">
-                Jamie Lannister is the son of Tywin and Joanna Lannister and the twin brother of
-                Cersei Lannister. He is responsible for killing Aerys Targaryen and got the name
-                "the Kingslayer".
+                Jamie is the eldest son and responsible for killing (then ruler of the
+                Seven Kingdoms) Aerys Targaryen, where he got the name "the Kingslayer".
+                He is the twin brother of Cersei.
               </p>
             </div>
             <div id="tyrion">
               <p class="medium" style="padding-bottom:1vw;">Tyrion Lannister</p>
               <p class="small">
-                Tyrion is the son of Tywin and Joanna Lannister and was born a dwarf. His mother (Joanna)
-                died giving birth to him and his father Tywin and sister Cersei say he is responsible for it.
+                Tyrion is the younger son and was born a dwarf. His mother Joanna
+                died giving birth to him, and thus he has a rocky relationship with most of his family.
+                He enjoys prostitutes and wine.
               </p>
             </div>
           </div>
+
+          <hr id="one">
+
+          <div id="Others">
+            <p class="medium" style="padding-top:1vw;">Other Notables</p>
+            <p class="small" style="padding-top:1vw; width:80vw;">
+              - Tywin has a younger brother named Kevan, who is also one of his advisors. <br>
+              - Kevan has a son named Lancel (and two others we don't care about).
+            </p>
+          </div>
+
         </div>
 
-        <p id="starkheading" class="largesub">The Starks</p>
+        <div id="tyrell">
+          <h1>House Tyrell</h1>
+        </div>
 
-        <p id="baratheonheading" class="largesub">The Baratheons</p>
+        <div id="stark">
+          <h1>House Stark</h1>
+        </div>
 
       </div>
 
       <div id="temp" style="height: 500px"></div>
-    </center>
   </div>
+  </center>
 
 <script src="assets/js/lightbox.js"></script>
+
 </body>

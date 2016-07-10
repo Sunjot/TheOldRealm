@@ -75,14 +75,53 @@ $(document).ready(function() {
         $(temp).css('display', 'none');
       });
 
-      $('#lannisterheading').click(function(){
-        var temp = '#lannisters';
+      // If mouse clicks a shield in row 1, display family members
+      $('#row1 .flag').click(function() {
+        $('#overlay').css('height', '100%'); // Slide in overlay from top
+        $('body').css('overflow-y', 'hidden'); // Disable scroll for background
 
-        if ($(temp).css('display') === 'block') {
-          $(temp).css('display', 'none');
-        } else {
-          $(temp).css('display', 'block');
-        }
+        // Add and remove fadein class to trigger animation
+        var house = $(this).attr('id');
+        console.log(house);
+        var element = '#overlay > #' + house;
+        $(element).css('display', 'block');
+        $(element).addClass("Fadein").delay(1000).queue(function() {
+          $(element).removeClass("Fadein");
+          $(element).dequeue();
+        });
+      });
+
+      // If mouse clicks a shield in row 2, display family members
+      $('#row2 .flag').click(function() {
+        $('#overlay').css('height', '100%'); // Slide in overlay from top
+        $('body').css('overflow-y', 'hidden'); // Disable scroll for background
+
+        // Add and remove fadein class to trigger animation
+        var house = $(this).attr('id');
+        console.log(house);
+        var element = '#overlay > #' + house;
+        $(element).css('display', 'block');
+        $(element).addClass("Fadein").delay(1000).queue(function() {
+          $(element).removeClass("Fadein");
+          $(element).dequeue();
+        });
+      });
+
+      $('#close').click(function() {
+        $('#overlay').css('height', '0'); // Slide out overlay to the top
+        $('body').css('overflow-y', 'auto'); // Enable scroll for background
+
+        // Add and remove fadeout class to trigger animation
+        $('#overlay > div').each(function() {
+          if ($(this).css('display') === 'block'){
+            $(this).addClass("Fadeout").delay(1000).queue(function() {
+              $(this).removeClass("Fadeout");
+              $(this).css('display', 'none');
+              $(this).dequeue();
+            });
+
+          }
+        });
       });
 
       // Every time the window is scrolled
